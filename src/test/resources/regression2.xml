@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Person Tests">
+
+    <test name="Person Test">
+        <packages>
+            <package name="personTests"/>
+        </packages>
+        <classes>
+            <class name="manandwomantests.ManTest"/>
+            <class name="manandwomantests.WomanTest"/>
+        </classes>
+    </test>
+</suite>
