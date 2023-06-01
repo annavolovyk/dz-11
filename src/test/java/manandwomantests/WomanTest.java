@@ -9,19 +9,19 @@ public class WomanTest {
 
     @Test
     public void testIsRetired(){
-        Woman woman = new Woman("Mary", "Smith", 62, "Alex");
-        Assert.assertEquals(woman.isRetired(),55,"Cannot be retired");
+        Woman woman = new Woman("Mary", "Smith", 65, "Alex");
+        Assert.assertTrue(woman.isRetired(),"Can be retired");
 
     }
 
     @Test
     public void testRegisterPartnership(){
             Woman woman = new Woman("Mary", "Smith", 62, "Alex");
-            Assert.assertEquals(woman.registerPartnership(), "Alex", "Registered");
+            ssert.assertEquals(woman.getPartner(), "Register Partnership");
     }
     @Test
     public void testDeregisterPartnership(){
         Woman woman = new Woman("Mary", "Smith", 62, "Alex");
-        Assert.assertEquals(woman.deregisterPartnership(), "Mike", "Deregister");
+        ssert.assertNull(woman.deregisterPartnership());
     }
 }
