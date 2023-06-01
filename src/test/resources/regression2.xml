@@ -6,8 +6,7 @@
             <package name="personTests"/>
         </packages>
         <classes>
-            <class name="manandwomantests.ManTest"/>
-            <class name="manandwomantests.WomanTest"/>
+            <class name="personTests.PersonTest"/>
         </classes>
     </test>
 </suite>
