@@ -17,7 +17,7 @@ public class WomanTest {
     @Test
     public void testRegisterPartnership(){
             Woman woman = new Woman("Mary", "Smith", 62, "Alex");
-            ssert.assertEquals(woman.getPartner(), "Register Partnership");
+            Assert.assertEquals(woman.getPartner(), "Register Partnership");
     }
     @Test
     public void testDeregisterPartnership(){
