@@ -7,7 +7,6 @@ public class ManTest {
     @Test
     public void getIsRetired(){
         Man man = new Man("Alex", "Smith", 65, "Mary");
-        Assert.assertEquals(man.isRetired(),66,"Can be retired");
-
+        Assert.assertFalse(man.isRetired(),"Cannot be retired");
     }
 }
